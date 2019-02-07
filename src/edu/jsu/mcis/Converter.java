@@ -68,7 +68,10 @@ public class Converter {
             Iterator<String[]> iterator = full.iterator();
             
             // INSERT YOUR CODE HERE
-            
+            String[] line = iterator.next();
+            for(String field : line){
+                System.out.println(field);
+            }
         }        
         catch(Exception e) { return e.toString(); }
         
